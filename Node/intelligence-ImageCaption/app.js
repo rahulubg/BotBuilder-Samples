@@ -68,7 +68,7 @@ bot.on('conversationUpdate', function (message) {
             if (identity.id === message.address.bot.id) {
                 var reply = new builder.Message()
                     .address(message.address)
-                    .text('Hi! I am ImageCaption Bot. I can understand the content of any image and try to describe it as well as any human. Try sending me an image or an image URL.');
+                    .text('Hi! I am ImageCaption Bot mydocbuddy. I can understand the content of any image and try to describe it as well as any human. Try sending me an image or an image URL.');
                 bot.send(reply);
             }
         });
